@@ -80,3 +80,83 @@ body {
     margin-top: 30px;
     min-height: 80px;         
 }
+/* I'm gonna be real i started with the php itself when styling and i just copy pasted it over here*/
+        .cart-box {
+            width: 350px;
+            min-height: 350px;
+            background: rgba(0,0,0,0.55);
+            border: 2px solid #777;
+            padding: 15px;
+            color: white;
+        }
+
+        .cart-items {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-height: 250px;
+            overflow-y: auto;
+        }
+
+        .cart-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(255,255,255,0.1);
+            padding: 8px;
+            border: 1px solid #555;
+            cursor: pointer;
+        }
+
+        .cart-item img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            background: rgba(0,0,0,0.3);
+        }
+
+        .totals {
+            margin-top: 15px;
+            padding-top: 10px;
+            border-top: 1px solid #666;
+        }
+
+        .discount-list {
+            background: rgba(255,255,255,0.05);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #555;
+            font-size: 14px;
+        }
+
+        .discount-item {
+            color: #90EE90;
+            margin: 5px 0;
+        }
+
+.product-list {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.inventory-box {
+    width: 350px;
+    min-height: 350px;
+    background: rgba(0,0,0,0.55);
+    border: 2px solid #777;
+    padding: 15px;
+    color: white;
+    margin-left: 15px;
+}
+
+.inventory-box table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.inventory-box th, .inventory-box td {
+    border: 1px solid #555;
+    padding: 4px;
+    text-align: center;
+}
